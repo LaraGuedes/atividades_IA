@@ -121,7 +121,7 @@ def jogar_jogo():
 #         REPITA
         while True:
 #             solicitar entrada do jogador entre 0 e 8
-            entrada = input("Escolha uma posição entre 0 e 8:")
+            entrada = input("\nEscolha uma posição entre 0 e 8:")
 #             SE posição for válida e estiver vazia
             if entrada.isdigit() and 0 <= int(entrada) < 9 and tabuleiro[int(entrada)] == "": 
 #                 tabuleiro[jogada] ← "X"
@@ -188,5 +188,5 @@ print("Boas vindas ao Jogo da Velha!")
 print("Posições do tabuleiro")
 posicoes_tabuleiro()
 # chamar jogar_jogo()
-print("Iniciando o jogo...")
+print("Iniciando o jogo...\n")
 jogar_jogo()
