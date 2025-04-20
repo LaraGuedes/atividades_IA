@@ -60,11 +60,12 @@ def main():
     tabuleiro = [
         ['X', ' ', ' ', ' '],
         [' ', ' ', ' ', ' '],
-        [' ', ' ', 'X', ' '],
+        [' ', 'X', 'X', ' '],
         ['*', ' ', 'X', 'X']
     ]
     # Mostra o tabuleiro inicial
     mostrar_tabuleiro(tabuleiro)
+    print("\n")
 
     # ENQUANTO usuário continuar e não tiver chegado ao destino:
     linha_atual, coluna_atual = 3, 0
